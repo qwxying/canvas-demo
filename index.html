@@ -17,9 +17,10 @@
       let last;
 
       let ctx = canvas.getContext("2d");
-      ctx.fillStyle = "blue";
-      ctx.strokeStyle = "none";
-      ctx.lineWidth = 5;
+
+      // ctx.fillStyle = "white";//矩形的填充色
+      ctx.strokeStyle = "red";//圆的填充色
+      ctx.lineWidth = 10;
       ctx.lineCap = "round";
 
       function drawLine(x1, y1, x2, y2) {
